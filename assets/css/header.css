@@ -30,5 +30,5 @@ header .header-menunav li{
  }
  header .header-menunav li a:hover{
  	text-decoration: none; 
- 	border-bottom:3px solid rgba(130, 114, 199,0.65); 
+ 	border-bottom:3px solid tomato; 
  }

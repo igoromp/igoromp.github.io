@@ -10,7 +10,7 @@
 }
 .card  h2{
 	font-size: 27px;
-	color: rgba(0,0,0,0.58);
+	color: rgba(0,0,0,0.68);
 	letter-spacing: 1px;
 	margin-bottom: 35px;
 }
@@ -29,12 +29,12 @@
 }
 .card-sub-date{
 	letter-spacing: 1px;
-	color: rgba(130, 114, 255,0.86);
+	color: rgba(255, 71, 49,1);
 }
 .sub-date-mark{
 	letter-spacing: 1px;
 	color: #fff;
-	background-color: rgba(130, 114, 255,0.86);
+	background-color: rgba(255, 71, 49,1);
 	padding: 4px 6px;
 	border-radius: 4px;
 }
@@ -45,8 +45,8 @@
 	font-size: 14px;
 }
 .card .card-list{
-	max-width: 350px;
-	min-width: 300px;
+	max-width: 100%;
+	width: 40%;
 	margin-top: 20px;
 	margin-right: 20px;
 	margin-left: 20px;	
@@ -96,5 +96,23 @@
 	}
 	.side-bar .img-title{
 		display: none;
+	}
+	.card .card-list{
+		margin-left: 0;
+	}
+	.card .card-item .card-desc{
+		font-size: 1em;
+		font-weight: bold;
+		display: block;
+	}
+	.card-sub-list .sub-item{
+		font-size: 1em;
+		margin-left: 0;
+	}
+}
+
+@media(max-width: 420px){
+	.card .card-list{
+		width: 100%;
 	}
 }
