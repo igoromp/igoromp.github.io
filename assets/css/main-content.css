@@ -1,0 +1,100 @@
+.card-wrapper{
+	float: right;
+}
+.card{	
+	max-width: 950px;
+	box-shadow: 0  2px 10px rgba(0,0,0,0.08);
+	padding: 10px 20px;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+.card  h2{
+	font-size: 27px;
+	color: rgba(0,0,0,0.58);
+	letter-spacing: 1px;
+	margin-bottom: 35px;
+}
+.card i{
+	margin-right: 15px;
+}
+
+.card .card-sub-title{
+	font-size: 20px;
+	letter-spacing: 2px;
+	color: rgba(0,0,0,0.58);
+}
+.card-sub-date{
+	margin-top: 15px;
+	font-size: 13px;
+}
+.card-sub-date{
+	letter-spacing: 1px;
+	color: rgba(130, 114, 255,0.86);
+}
+.sub-date-mark{
+	letter-spacing: 1px;
+	color: #fff;
+	background-color: rgba(130, 114, 255,0.86);
+	padding: 4px 6px;
+	border-radius: 4px;
+}
+.card .card-content{
+	margin-top: 20px;
+	line-height: 25px;
+	margin-bottom: 50px;
+	font-size: 14px;
+}
+.card .card-list{
+	max-width: 350px;
+	min-width: 300px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;	
+	padding: 0;
+	display: inline-block;
+}
+.card .card-list,.card-sub-list{
+	list-style: none;
+	padding: 0;
+}
+.card .card-item i{
+	font-size: 1.5em;
+	margin-right: 5px;
+	color: #7Ce181;
+}
+.card .card-item i[data-progress="true"]{	
+	-webkit-animation:spinner 3s infinite;
+}
+.card .card-desc{
+	font-size: 1.20em;
+	display: inline-block;
+	letter-spacing: 2px;
+	color: rgba(0,0,0,0.75);
+}
+.card .sub-item{
+	letter-spacing: 1px;
+	font-style: italic;
+	margin-left: 30px; 
+
+}
+
+@-webkit-keyframes spinner{
+	0% {
+        -webkit-transform:rotate(0deg);
+    }
+    
+    100% {
+        -webkit-transform:rotate(360deg);
+    }
+}
+
+@media (max-width: 991px){
+	.card-wrapper{
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.side-bar .img-title{
+		display: none;
+	}
+}
